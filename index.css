@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.app {
+  box-shadow: -16px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  background-color: #291f1e;
+}
+.app-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border: 1px solid;
+  padding: 20px;
+}
+.btn-search {
+  padding: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-top: 13px;
+  border: none;
+  cursor: pointer;
+  background-color: #291f1e;
+  color: white;
+}
+.btn-search:hover {
+  opacity: 0.7;
+  box-shadow: 1px 1px 40px 2px #291f1e;
+}
+.btn-search:active {
+  opacity: 0.4;
+  box-shadow: 1px 1px 40px 2px #291f1e;
+}
+.app-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 40px 15px white;
+  background-color: white;
+  
+}
+.color-red {
+  color: red;
+}
+.color-aqua {
+  color: aqua;
+}
+.input-search {
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  color: #291f1e;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  height: 70px;
+}
+.title,
+.hour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-style: italic;
+}
+.coordinates {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid;
+}
+.description {
+  border: 1px solid;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.temperature-container {
+  display: flex;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+.temperature {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.temperature-number {
+  margin-top: 10px;
+  font-size: 100px;
+}
+.data-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 190px;
+}
+
+.pressure-container {
+  border: 1px solid;
+}
+.humidity-container {
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+.wind-speed-container {
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+.pressure-title,
+.humidity-title,
+.wind-speed-title {
+  border-bottom: 1px solid;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+.box-pressure,
+.box-humidity,
+.box-wind-speed {
+  display: flex;
+  justify-content: center;
+}
+.pressure-data,
+.humidity-data,
+.wind-speed-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  font-size: 25px;
+  font-style: italic;
+}
+.pressure-img,
+.humidity-img,
+.wind-speed-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  font-size: 25px;
+}
+.sun-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box-sunset {
+  text-align: center;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  font-size: 25px;
+  padding: 5px 5px 5px 5px;
+  background-color: #c23000;
+}
+.box-sunrise {
+  text-align: center;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  font-size: 25px;
+  padding: 5px 5px 5px 5px;
+  background-color: #fe9600;
+}
